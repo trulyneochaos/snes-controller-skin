@@ -11,26 +11,26 @@
 .custom.disconnected div {
     display: none;
 }
-.custom .triggers{ /* The triggers are housed inside a div, so this sizes the div properly and positions it */
+.custom .bumpers{ /* The bumpers are housed inside a div, so this sizes the div properly and positions it */
     width: 853px;
     height: 69px;
     position: absolute;
     left: 94px;
 }
-.custom .trigger{/* These are the actual triggers themselves */
+.custom .bumper{/* These are the actual bumpers themselves */
     width:248px;
     height:69px;
-    background: url(snes-assets/Trigger.png);
+    background: url(snes-assets/Bumper.png);
     opacity: 0;
 }
-/* The left and right classes below are used to position the triggers
+/* The left and right classes below are used to position the bumpers
 within the div they're contained in. Since their positions is realtive
 to the size of the parent element, we simply resize the parent element 
 above to achieve the desired position. */
-.custom .trigger.left{ 
+.custom .bumper.left{ 
     float: left;
 }
-.custom .trigger.right{
+.custom .bumper.right{
     float: right;
 }
 
